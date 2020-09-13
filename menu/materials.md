@@ -5,39 +5,39 @@ title: Schedule & Materials
 
 ## 15.09. - Intro
 
-Presentation:
+- Presentation:
 
 ## 22.09. - Tokenization & Markdown
 
-Preparation: 
-Presentation:
-Assignment:
+- Preparation: Complete <a href="menu/installation"><b>installation</b></a> instructions incl. swirl
+- Presentation:
+- Assignment:
 
 ## 29.09. - Zipf's law
 
-Preparation:
-Presentation:
-Assignment:
+- Preparation:
+- Presentation:
+- Assignment:
 
 ## 06.10. - Tidytext
 
-Preparation:
-Presentation:
-Assignment:
+- Preparation:
+- Presentation:
+- Assignment:
 
 Doodle
 
 ## 13.10. - Semantics
 
-Preparation:
-Presentation:
-Assignment:
+- Preparation:
+- Presentation:
+- Assignment:
 
 ## 20.10. - Sentiment
 
-Preparation:
-Presentation:
-Assignment:
+- Preparation:
+- Presentation:
+- Assignment:
 
 ## 27.10. - Project proposals
 
