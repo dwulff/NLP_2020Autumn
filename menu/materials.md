@@ -3,13 +3,20 @@ layout: page
 title: Schedule & Materials
 ---
 
+<style>
+e {
+  font-size: 1.5em;
+  font-weight: 900;
+}
+</style>
+
 ## 15.09. - Intro
 
 - Presentation:
 
 ## 22.09.
 
-<b>Tokenization & Markdown</b>
+<e>Tokenization & Markdown</e>
 
 - Preparation: Complete <a href="menu/installation"><b>installation</b></a> instructions incl. swirl
 - Presentation:
