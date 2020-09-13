@@ -46,7 +46,7 @@ e {
 
 <e>Semantics</e>
 
-- Preparation:
+- Preparation: Read <a href="https://dwulff.github.io/NLP_2020Autumn/assets/img/Bullinaria&Levy2007.pdf">Bullinaria & Levy (2007)</a>
 - Presentation:
 - Assignment:
 
@@ -54,7 +54,7 @@ e {
 
 <e>Sentiment</e>
 
-- Preparation:
+- Preparation: Read <a href="https://dwulff.github.io/NLP_2020Autumn/assets/img/Reagan2016.pdf">Reagan (2016)</a>
 - Presentation:
 - Assignment:
 
