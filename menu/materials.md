@@ -47,4 +47,4 @@ Doodle
 
 ## 24.11. - 15.12. Project work
 
-## 15.12. - Conference presentations
+## 15.12. - Final presentations
