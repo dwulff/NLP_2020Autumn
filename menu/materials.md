@@ -68,11 +68,11 @@ e {
 
 ## 24.11.
 
-<e>Markdown presentations</e
+<e>Markdown presentations</e>
 
 ## 24.11. - 15.12.
 
-<e>Project work & meetings/e<>
+<e>Project work & meetings</e>
 
 ## 15.12.
 
