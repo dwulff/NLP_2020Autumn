@@ -14,7 +14,7 @@ e {
 
 <e>Intro</e>
 
-- Presentation:
+- Presentation: <a href="https://dwulff.github.io/NLP_2020Autumn/assets/key/Intro.pdf">Intro.pdf</a>
 
 ## 22.09.
 
@@ -28,7 +28,7 @@ e {
 
 <e>Zipf's law</e>
 
-- Preparation: Read <a href="https://dwulff.github.io/NLP_2020Autumn/assets/img/Piantadosi2014.pdf">Piantadosi (2014)</a>
+- Preparation: Read <a href="https://dwulff.github.io/NLP_2020Autumn/assets/pdf/Piantadosi2014.pdf">Piantadosi (2014)</a>
 - Presentation:
 - Assignment:
 
@@ -46,7 +46,7 @@ e {
 
 <e>Semantics</e>
 
-- Preparation: Read <a href="https://dwulff.github.io/NLP_2020Autumn/assets/img/Bullinaria&Levy2007.pdf">Bullinaria & Levy (2007)</a>
+- Preparation: Read <a href="https://dwulff.github.io/NLP_2020Autumn/assets/pdf/Bullinaria&Levy2007.pdf">Bullinaria & Levy (2007)</a>
 - Presentation:
 - Assignment:
 
@@ -54,7 +54,7 @@ e {
 
 <e>Sentiment</e>
 
-- Preparation: Read <a href="https://dwulff.github.io/NLP_2020Autumn/assets/img/Reagan2016.pdf">Reagan (2016)</a>
+- Preparation: Read <a href="https://dwulff.github.io/NLP_2020Autumn/assets/pdf/Reagan2016.pdf">Reagan (2016)</a>
 - Presentation:
 - Assignment:
 
