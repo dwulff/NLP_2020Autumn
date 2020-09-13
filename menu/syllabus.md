@@ -6,9 +6,6 @@ title: Syllabus
 ## Instructor
 Dirk Wulff (<a href="mailto:dirk.wulff@unibas.ch">contact</a>)
 
-## Venue
-<a href="">Zoom</a>
-
 ## Background
 With the rise of the internet and social media, unprecedented amounts of digitized natural language are becoming available. This aim of this seminar is to enable you to thoughtfully and actively use natural language data to help answer meaningful psychological questions. This course will consist of 1) introductory sessions on data science techniques using R to natural language processing, 2) the application of natural language processing in exercises, 3) a natural language processing group project over the course of the semester, 4) two presentations of the group project' results.
 
@@ -25,3 +22,6 @@ The course is graded as PASS/FAIL. Students can receive a PASS if they fulfill t
 
 ## Agenda
 See <a href="">Schedule & Materials</a>
+
+## Venue
+<a href="menu/zoom">Zoom</a>
