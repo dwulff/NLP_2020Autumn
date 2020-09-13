@@ -28,7 +28,7 @@ e {
 
 <e>Zipf's law</e>
 
-- Preparation:
+- Preparation: Read <a href="https://dwulff.github.io/NLP_2020Autumn/assets/img/Piantadosi2014.pdf">Piantadosi (2014)</a>
 - Presentation:
 - Assignment:
 
