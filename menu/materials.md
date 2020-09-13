@@ -10,7 +10,9 @@ e {
 }
 </style>
 
-## 15.09. - Intro
+## 15.09.
+
+<e>Intro</e>
 
 - Presentation:
 
@@ -22,38 +24,56 @@ e {
 - Presentation:
 - Assignment:
 
-## 29.09. - Zipf's law
+## 29.09.
+
+<e>Zipf's law</e>
 
 - Preparation:
 - Presentation:
 - Assignment:
 
-## 06.10. - Tidytext
+## 06.10.
+
+<e>Tidytext</e>
 
 - Preparation:
 - Presentation:
 - Assignment:
 
-Doodle
+<!---Doodle--->
 
-## 13.10. - Semantics
+## 13.10.
 
-- Preparation:
-- Presentation:
-- Assignment:
-
-## 20.10. - Sentiment
+<e>Semantics</e>
 
 - Preparation:
 - Presentation:
 - Assignment:
 
-## 27.10. - Project proposals
+## 20.10.
 
-## 27.10. - 24.11. Project work
+<e>Sentiment</e>
 
-## 24.11. - Markdown presentations
+- Preparation:
+- Presentation:
+- Assignment:
 
-## 24.11. - 15.12. Project work
+## 27.10.
 
-## 15.12. - Final presentations
+<e>Project proposals</e>
+
+## 27.10. - 24.11.
+
+<e>Project work & meetings</e>
+
+## 24.11.
+
+<e>Markdown presentations</e
+
+## 24.11. - 15.12.
+
+<e>Project work & meetings/e<>
+
+## 15.12.
+
+<e>Final presentations</e>
