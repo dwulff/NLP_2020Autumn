@@ -7,7 +7,7 @@ title: Schedule & Materials
 
 - Presentation:
 
-## 22.09. - Tokenization & Markdown
+## <b>22.09.</b> Tokenization & Markdown
 
 - Preparation: Complete <a href="menu/installation"><b>installation</b></a> instructions incl. swirl
 - Presentation:
