@@ -14,29 +14,42 @@ analytics_package_installation <- function() {
 
     # Tidyverse --------------
 
-    "tidyverse"
-
+    "tidyverse",
+    
+    # NLP --------------
+    "tidytext",
+    "wordcloud", 
+    "stopwords",
+    
+    # Markdown ---------
+    "rmarkdown"
   )
 
   # Optional packages
   optional <- c(
-    #
+  
+    # NLP ----------
+    "snowballC",
+    "tm",
+    
     # # Utilities --------------
     #
-     "Rcpp",
-    # "rvest",
-    "lubridate",
+    "Rcpp",
+    "rvest",
+    "xml2",
+    "XML",
+    # "lubridate",
     # "skimr",
 
     # Markdown / Shiny --------------
 
     # "shiny",
     # "shinyjs",
+    # "knitr",
     # "markdown",
     # "rmarkdown",
     # "rmdformats",
     # "DT",
-
 
     # Stats --------------
 
@@ -47,33 +60,34 @@ analytics_package_installation <- function() {
     # "parfm",
     # "lava",
     # "rsq",
-    "broom",
+    # "broom",
 
     # ML --------------
 
-     "caret",
+    # "caret",
     # "FFTrees",
-     "rpart",
-     "randomForest",
-     "e1071",
-     "party",
-     "partykit",
-     "glmnet",
+    # "rpart",
+    # "randomForest",
+    # "e1071",
+    # "party",
+    # "partykit",
+    # "glmnet",
     # "earth",
     # "tensorflow",
     # "Boruta",
 
     # Plotting --------------
-   # "yarrr",
+    # "yarrr",
     # "diagram",
     # "ggRandomForests",
-  #  "ggthemes",
-   # "ggpubr",
+      "ggthemes"
+    # "ggpubr",
 
     # Datasets --------------
-    "speff2trial",
-    "ISLR",
-    "mlbench")
+    # "speff2trial",
+    # "ISLR",
+    # "mlbench"
+    )
 
   message("Welcome to the course Natural Language Processing as a Tool for Psychological Research!")
   message("We are now installing a few packages, this might take a few minutes...")
