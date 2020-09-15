@@ -170,7 +170,7 @@ NLP_package_installation <- function() {
 
 
   message("--------------------------------")
-  message("See you soon in the course")
+  message("See you next week")
   message("dwulff.github.io/NLP_2020Autumn/")
   message("--------------------------------")
 
