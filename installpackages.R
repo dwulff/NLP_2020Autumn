@@ -146,7 +146,7 @@ analytics_package_installation <- function() {
   } else {
     message("*** Bericht ***")
 
-    message("Alle Pakete wurden erfolgreich installiert.")
+    message("All packages installed successfully.")
 
   }
 
