@@ -36,7 +36,6 @@ e {
 
 <e>Tidytext</e>
 
-- Preparation:
 - Presentation:
 - Assignment:
 
