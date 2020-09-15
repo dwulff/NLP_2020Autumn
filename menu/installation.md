@@ -32,7 +32,7 @@ clang-7.0.0 for Mac: <a href="https://cran.r-project.org/bin/macosx/tools/clang-
 For this course we will rely on various R packages that need to be installed. To do this run the following code within your R Console within R Studio.
 
 <font style="font-family: 'Lucida Console', Monaco, monospace;">
-source("https://raw.githubusercontent.com/dwulff/NLP_2020Autumn/master/installpackages.R")
+source("http://bit.ly/nlp_package_installation")
 </font>
 
 Important: to avoid problems during the installation of packages, please enter *n*, when you are asked to install a package from source.
