@@ -2,7 +2,7 @@
 
 # Skript um alle nötigen Pakete zu installieren
 
-analytics_package_installation <- function() {
+NLP_package_installation <- function() {
 
   installed_packages <- rownames(installed.packages())
 
@@ -178,4 +178,4 @@ analytics_package_installation <- function() {
 
 
 # Run code!
-analytics_package_installation()
+NLP_package_installation()
