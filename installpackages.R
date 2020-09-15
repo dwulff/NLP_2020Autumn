@@ -29,7 +29,7 @@ analytics_package_installation <- function() {
   optional <- c(
   
     # NLP ----------
-    "snowballC",
+    "SnowballC",
     "tm",
     
     # # Utilities --------------
