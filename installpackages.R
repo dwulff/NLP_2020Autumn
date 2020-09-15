@@ -1,4 +1,4 @@
-https://cdsbasel.github.io/dataanalytics/
+# https://dwulff.github.io/NLP_2020Autumn/
 
 # Skript um alle nötigen Pakete zu installieren
 
@@ -75,7 +75,7 @@ analytics_package_installation <- function() {
     "ISLR",
     "mlbench")
 
-  message("Welcome to the course Data Analytics for Psychology and Business!")
+  message("Welcome to the course Natural Language Processing as a Tool for Psychological Research!")
   message("We are now installing a few packages, this might take a few minutes...")
 
   critical_not_installed <- c()
@@ -157,7 +157,7 @@ analytics_package_installation <- function() {
 
   message("--------------------------------")
   message("See you soon in the course")
-  message("cdsbasel.github.io/dataanalytics/")
+  message("dwulff.github.io/NLP_2020Autumn/")
   message("--------------------------------")
 
 }
