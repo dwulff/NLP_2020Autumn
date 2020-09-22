@@ -29,7 +29,7 @@ In this assignment you will...
 
 ### A - Download Project
 
-1. Download this zipped <a href="https://dwulff.github.io/NLP_2020Autumn/_sessions/NLP_2020Autumn.zip"><b>project</b></a>.
+1. Download this zipped <a href="https://dwulff.github.io/NLP_2020Autumn/assets/sessions/NLP_2020Autumn.zip"><b>project</b></a>.
 
 2. Locate the downloaded file, unzip it and move it to a suitable location on your hard drive. 
 
