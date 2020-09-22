@@ -1089,5 +1089,5 @@ css: "../2_Assets/styling.csv")
 
 class: middle, center
 
-<h1><a href="https://therbootcamp.github.io/RmR_2020Jun/_sessions/Markdown/Markdown_practical.html">Practical</a></h1>
+<h1><a href=https://dwulff.github.io/NLP_2020Autumn/menu/materials.html>Materials</a></h1>
 
