@@ -4,13 +4,13 @@ author: "<a href='https://dwulff.github.io/NLP_2020Autumn'>
     Natural language processing
   </a>
   <br>
-  <a href='https://cdsbasel.github.io/dataanalytics/menu/materials.html'>
+  <a href='https://dwulff.github.io/NLP_2020Autumn/menu/materials.html'>
     <i class='fas fa-clock' style='font-size:.9em;'></i>
   </a>&#8239; 
-  <a href='https://cdsbasel.github.io/dataanalytics/'>
+  <a href='https://dwulff.github.io/NLP_2020Autumn'>
     <i class='fas fa-home' style='font-size:.9em;' ></i>
   </a>&#8239;
-  <a href='mailto:rui.mata@unibas.ch'>
+  <a href='mailto:dirk.wulff@unibas.ch'>
     <i class='fas fa-envelope' style='font-size: .9em;'></i>"
 date: "September 2020"
 output:
