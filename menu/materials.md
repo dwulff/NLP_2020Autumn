@@ -21,8 +21,8 @@ e {
 <e>Tokenization & Markdown</e>
 
 - Preparation: Complete <a href="menu/installation"><b>installation</b></a> instructions incl. swirl
-- Presentation:
-- Assignment:
+- Presentation: <a href="https://dwulff.github.io/NLP_2020Autumn/_sessions/Tokenization/Tokenization_intro.html>Tokenization</a>, <a href="https://dwulff.github.io/NLP_2020Autumn/_sessions/Tokenization/Markdown_intro.html>Markdown</a>
+- Assignment: <a href="https://dwulff.github.io/NLP_2020Autumn/_sessions/Tokenization/Tokenization.html>Tokenization</a>
 
 ## 29.09.
 
