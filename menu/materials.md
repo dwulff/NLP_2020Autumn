@@ -8,6 +8,15 @@ e {
   font-size: 1.5em;
   font-weight: 900;
 }
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
 </style>
 
 ## 15.09.
@@ -22,7 +31,7 @@ e {
 
 - Preparation: Complete <a href="menu/installation"><b>installation</b></a> instructions incl. swirl
 - Presentation: <a href="https://dwulff.github.io/NLP_2020Autumn/assets/sessions/Tokenization/Tokenization_intro.html">Tokenization</a>, <a href="https://dwulff.github.io/NLP_2020Autumn/assets/sessions/Tokenization/Markdown_intro.html">Markdown</a>
-- Assignment: <a href="https://dwulff.github.io/NLP_2020Autumn/assets/sessions/Tokenization/Tokenization.html">Tokenization</a> (<button href="mailto:nlp2020autumn@gmail.com?subject=Tokenization">submit</button>) 
+- Assignment: <a href="https://dwulff.github.io/NLP_2020Autumn/assets/sessions/Tokenization/Tokenization.html">Tokenization</a> (<a href="mailto:nlp2020autumn@gmail.com?subject=Tokenization" class="button">submit</a>) 
 
 ## 29.09.
 
