@@ -106,7 +106,7 @@ plot(token_rank, token_freq,
      type = "l", xlab = "Token rank", ylab = "Token frequency")
 ```
 
-3. Now use `lines()` to add a second line determined by $\frac{max(f)}{{(r + \beta)}^\alpha}$ with $\alpha = 1$, $\beta = 2.7$, $f$ being the token frequency, and $r$ being the token rank. Choose a different color for this line. 
+3. Now use `lines()` to add a second line determined by $max(f)/{(r + \beta)}^\alpha$ with $\alpha = 1$, $\beta = 2.7$, $f$ being the token frequency, and $r$ being the token rank. Choose a different color for this line. 
 
 ```{r}
 # Add model
