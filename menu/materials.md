@@ -31,7 +31,7 @@ e {
 
 - Preparation: Read <a href="https://dwulff.github.io/NLP_2020Autumn/assets/pdf/Piantadosi2014.pdf">Piantadosi (2014)</a>
 - Presentation:
-- Assignment:
+- Assignment: <a href="https://dwulff.github.io/NLP_2020Autumn/assets/sessions/Zipf/Zipf.html">Tokenization</a> (<a href="mailto:nlp2020autumn@gmail.com?subject=Zipf%20assignment" class="button"><b>submit</b></a>)
 
 ## 06.10.
 
