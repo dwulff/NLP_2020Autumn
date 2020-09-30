@@ -16,7 +16,7 @@ Learn the fundamentals of natural language processing and data analysis. Develop
 The course is graded as PASS/FAIL. Students can receive a PASS if they fulfill the following requirements:
 1. Engagement in class exercises and discussions
 2. Complete homework assignments
-3. Present a blitz talk describing the group project
+3. Present a blitz talk describing group project ideas
 4. Contribute to and complete group project
 5. Present group project (twice)
 
