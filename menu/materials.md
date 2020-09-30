@@ -34,20 +34,20 @@ e {
 
 ## 06.10.
 
+<e>Semantics</e>
+
+- Preparation: Read <a href="https://dwulff.github.io/NLP_2020Autumn/assets/pdf/Bullinaria&Levy2007.pdf">Bullinaria & Levy (2007)</a>
+- Presentation:
+- Assignment:
+
+## 13.10.
+
 <e>Tidytext</e>
 
 - Presentation:
 - Assignment:
 
 <!---Doodle--->
-
-## 13.10.
-
-<e>Semantics</e>
-
-- Preparation: Read <a href="https://dwulff.github.io/NLP_2020Autumn/assets/pdf/Bullinaria&Levy2007.pdf">Bullinaria & Levy (2007)</a>
-- Presentation:
-- Assignment:
 
 ## 20.10.
 
