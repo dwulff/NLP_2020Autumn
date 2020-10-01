@@ -86,7 +86,7 @@ token_frequencies[1:100]
 token_frequencies = sort(token_frequencies, decreasing = TRUE)
 ```
 
-5. Print again `token_frequencies[1:100]`, which now should show the 100 most frequent words. What are the most frequent words in your book? With the exception of stopwords (see below), the same ones should have popped up in the word cloud in the previous assignment. 
+5. Print again `token_frequencies[1:100]`, which now should show the 100 most frequent words. What are the most frequent words in your book? The same ones should have popped up in the word cloud in the previous assignment. 
 
 ### C - Zipf's law
 
