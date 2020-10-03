@@ -52,8 +52,10 @@ main_text = text_split[[1]][2]
 # to lower
 main_text = str_to_lower(main_text)
 
-# tokenize
-tokens = str_extract_all(main_text, '[:alpha:]+')[[1]]
+# paragraphize
+a = str_split(main_text, '\n')
+
+
 ```
 
 ### B - Analyze frequencies

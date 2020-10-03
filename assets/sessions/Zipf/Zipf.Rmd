@@ -90,7 +90,7 @@ token_frequencies = sort(token_frequencies, decreasing = TRUE)
 
 ### C - Zipf's law
 
-1. Analyze token frequency as a function of the token's rank and label the axes as `"Token rank"` and `"Token frequency"`. To do this, create two vectors, one called `token_ranks` containing the token ranks (use `rank()`), where the smallest rank is assigned to the token with the highest frequency, and one called `token_freq` containing the token frequencies as a vector (use `c()`). 
+1. Analyze token frequency as a function of the token's rank and label the axes as `"Token rank"` and `"Token frequency"`. To do this, create two vectors, one called `token_rank` containing the token ranks (use `rank()`), where the smallest rank is assigned to the token with the highest frequency, and one called `token_freq` containing the token frequencies as a vector (use `c()`). 
 
 ```{r}
 # Create vectors
