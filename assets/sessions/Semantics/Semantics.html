@@ -383,7 +383,7 @@ summary {
 <div id="a---return-to-previous-assignment" class="section level3">
 <h3>A - Return to previous assignment</h3>
 <ol style="list-style-type: decimal">
-<li><p>Start a new markdown document and start out with working code from the previous assignment in order to tokenize the text.</p></li>
+<li><p>Start a new markdown document and start out with working code from the previous assignment up to the point where you have extracted the <code>main_text</code> and set all characters to lower-case.</p></li>
 <li><p>At the beginning also load the package <code>stopwords</code>.</p></li>
 </ol>
 </div>
@@ -414,8 +414,8 @@ summary {
 <li><p>Print a few rows and columns to get a feel for the values inside <code>ppmi</code>.</p></li>
 </ol>
 </div>
-<div id="d---cosines-similarities" class="section level3">
-<h3>D - Cosines similarities</h3>
+<div id="d---cosine-similarities" class="section level3">
+<h3>D - Cosine similarities</h3>
 <ol style="list-style-type: decimal">
 <li><p>The first step towards computing cosine similarities from the <code>ppmi</code> matrix is to determien the dot-product of all rows. To do this multiply <code>ppmi</code> with <code>t(ppmi)</code>, the transpose of <code>ppmi</code>, using matrix multiplication <code>%*%</code>. Store the resulting matrix as <code>dot_prod</code>.</p></li>
 <li><p>Verify using <code>dim()</code> that <code>dot_prod</code> is a square matrix with as many rows and columns as there are <code>terms</code>.</p></li>

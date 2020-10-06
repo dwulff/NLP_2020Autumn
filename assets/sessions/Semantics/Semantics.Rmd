@@ -28,7 +28,7 @@ In this assignment you will...
 
 ### A - Return to previous assignment
 
-1. Start a new markdown document and start out with working code from the previous assignment in order to tokenize the text.
+1. Start a new markdown document and start out with working code from the previous assignment up to the point where you have extracted the `main_text` and set all characters to lower-case.
 
 2. At the beginning also load the package `stopwords`. 
 
@@ -176,7 +176,7 @@ ppmi[ppmi < 0] = 0
 
 6. Print a few rows and columns to get a feel for the values inside `ppmi`. 
 
-### D - Cosines similarities
+### D - Cosine similarities
 
 1. The first step towards computing cosine similarities from the `ppmi` matrix is to determien the dot-product of all rows. To do this multiply `ppmi` with `t(ppmi)`, the transpose of `ppmi`, using matrix multiplication `%*%`. Store the resulting matrix as `dot_prod`. 
 
