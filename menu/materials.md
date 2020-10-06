@@ -37,17 +37,11 @@ e {
 <e>Semantics</e>
 
 - Preparation: Read <a href="https://dwulff.github.io/NLP_2020Autumn/assets/pdf/Bullinaria&Levy2007.pdf">Bullinaria & Levy (2007)</a>
-- Presentation:
-- Assignment:
+- Assignment: <a href="https://dwulff.github.io/NLP_2020Autumn/assets/sessions/Semantics/Semantics.html">Zipf</a> (<a href="mailto:nlp2020autumn@gmail.com?subject=Semantics%20assignment" class="button"><b>submit .html</b></a>)
 
 ## 13.10.
 
-<e>Tidytext</e>
-
-- Presentation:
-- Assignment:
-
-<!---Doodle--->
+<e>NO CLASS</e>
 
 ## 20.10.
 
