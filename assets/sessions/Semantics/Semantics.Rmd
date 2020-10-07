@@ -39,7 +39,7 @@ library(wordcloud)
 library(stopwords)
 
 # load text
-text <- read_file('pg2197.txt')
+text <- read_file('tolstoi.txt')
 
 # cut text into sections
 text_split = str_split(text, '\\*{3}[:print:]*\\*{3}')
@@ -86,7 +86,7 @@ token_freq = table(unlist(tokens))
 retain = names(token_freq)[token_freq > 4 & !names(token_freq) %in% stopwords()]
 ```
 
-5. Run a loop iterating from 1 to length of `tokens`. At each iteration overwrite `tokens[[i]]` to with a vector containing only those words in `tokens[[i]]` that exist in `retain`. 
+5. Run a loop iterating from 1 to length of `tokens`. At each iteration overwrite `tokens[[i]]` with a vector containing only those words in `tokens[[i]]` that exist in `retain`. 
 
 ```{r}
 # retain tokens
