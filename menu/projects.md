@@ -97,9 +97,9 @@ Each group must participate in least two 45 minute support meetings, one prior t
 During the course, each group will give four presentations, two project pitches, one markdown presentation, and one final presentation. These presentations serve two important purposes. First, they will help you advance and track the progression of your project and invite helpful feedback from other seminar participants. Second, they provide valuable opportunities for practicing the communication of data analytic projects in various formats. The maxim for these presentations is to tell good stories that inform and entertain the audience. Some helpful advice can be found <a href="http://www.podiumwisdom.com/blog/2015/11/15/4-tips-best-science-communicators"><b>here</b></a>.
 
 <table cellspacing="0" cellpadding="0">
-  <col width=20%>
-  <col width=5%>
-  <col width=75%>
+  <col width="20%"">
+  <col width="5%"">
+  <col width="75%"">
   <tr>
     <td><b>Presention</b></td>
     <td><b>Constraints</b></td>
