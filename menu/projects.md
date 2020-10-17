@@ -97,30 +97,27 @@ Each group must participate in least two 45 minute support meetings, one prior t
 During the course, each group will give four presentations, two project pitches, one markdown presentation, and one final presentation. These presentations serve two important purposes. First, they will help you advance and track the progression of your project and invite helpful feedback from other seminar participants. Second, they provide valuable opportunities for practicing the communication of data analytic projects in various formats. The maxim for these presentations is to tell good stories that inform and entertain the audience. Some helpful advice can be found <a href="http://www.podiumwisdom.com/blog/2015/11/15/4-tips-best-science-communicators"><b>here</b></a>.
 
 <table cellspacing="0" cellpadding="0">
-  <col width="20%"">
-  <col width="5%"">
-  <col width="75%"">
+  <col width="20%">
+  <col width="20%">
+  <col width="60%">
   <tr>
     <td><b>Presention</b></td>
     <td><b>Constraints</b></td>
     <td><b>Description</b></td>
   </tr>
-  <tr></tr>
   <tr>
-    <td>Project pitch</td>
-    <td>Max 3 minutes and 3 slides per project.</td>
-    <td>Introduce and motivate a research questions and explain in very broad strokes how the chosen data set may help answer the question.</td>
+    <td style="padding:4px">Project pitch</td>
+    <td style="padding:4px">Max 3 minutes and 3 slides per project.</td>
+    <td style="padding:4px">Introduce and motivate a research questions and explain in very broad strokes how the chosen data set may help answer the question.</td>
   </tr>
-  <tr></tr>
   <tr>
-    <td>Markdown presentation</td>
-    <td>10 minutes, no slides, just a knitted markdown</td>
-    <td>Briefly introduce and motivate question, then show, using your knitted markdown document, your progress in addressing the question and discuss outstanding issues.</td>
+    <td style="padding:4px">Markdown presentation</td>
+    <td style="padding:4px">10 minutes, no slides, just a knitted markdown</td>
+    <td style="padding:4px">Briefly introduce and motivate question, then show, using your knitted markdown document, your progress in addressing the question and discuss outstanding issues.</td>
   </tr>
-  <tr></tr>
   <tr>
-    <td>Final presentation</td>
-    <td>10 minutes, max 7 slides</td>
-    <td>Clean final presentation that presents a full, easy-to-follow story arc from a motivated question to conclusions derived from analytical results.</td>
+    <td style="padding:4px">Final presentation</td>
+    <td style="padding:4px">10 minutes, max 7 slides</td>
+    <td style="padding:4px">Clean final presentation that presents a full, easy-to-follow story arc from a motivated question to conclusions derived from analytical results.</td>
   </tr>
 </table>
