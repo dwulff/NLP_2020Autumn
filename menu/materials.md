@@ -50,7 +50,7 @@ e {
 
 - Preparation: Read <a href="https://dwulff.github.io/NLP_2020Autumn/assets/pdf/Reagan2016.pdf">Reagan (2016)</a>
 - Presentation: <a href="https://dwulff.github.io/NLP_2020Autumn/assets/sessions/Sentiment/R_demo.R">R demo</a>
-- Assignment: <a href="https://dwulff.github.io/NLP_2020Autumn/assets/sessions/Sentiment/Sentiment.html">Semantics</a> (<a href="mailto:nlp2020autumn@gmail.com?subject=Sentiment%20assignment" class="button"><b>submit .html</b></a>)
+- Assignment: <a href="https://dwulff.github.io/NLP_2020Autumn/assets/sessions/Sentiment/Sentiment.html">Sentiment</a> (<a href="mailto:nlp2020autumn@gmail.com?subject=Sentiment%20assignment" class="button"><b>submit .html</b></a>)
 
 ## 27.10.
 
