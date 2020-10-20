@@ -39,7 +39,7 @@ library(wordcloud)
 library(stopwords)
 
 # load text
-text <- read_file('tolstoi.txt')
+text <- read_file('pg2197.txt')
 
 # cut text into sections
 text_split = str_split(text, '\\*{3}[:print:]*\\*{3}')
