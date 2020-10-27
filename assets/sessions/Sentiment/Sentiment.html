@@ -388,12 +388,54 @@ summary {
 <div id="b---process-books" class="section level3">
 <h3>B - Process books</h3>
 <ol style="list-style-type: decimal">
-<li><p>Load packages <code>tidyverse</code> and <code>tidytext</code>.</p></li>
-<li><p>Define a function called <code>main_text_fun</code> that takes as input the filename (incl. path) and returns the <code>main_text</code> object from previous assignments containing the lower-case book text.</p></li>
-<li><p>Create a vector containing filenames (incl. path) of the books. If the books are all in one folder you can use <code>list.files()</code> with <code>full.names = TRUE</code>.</p></li>
-<li><p>Use the vector and the <code>main_text_fun()</code> within a <code>sapply()</code> to extract the texts for all books and store them in an object called <code>texts</code>.</p></li>
-<li><p>Create a <code>tibble</code> using <code>tibble</code> that has two columns: a column called <code>book</code> containing a self-defined character vector of book names and a column called <code>text</code> containing the <code>texts</code> vector of books. Call the tibble <code>text_tbl</code>. When you subsequently print it it should like the output shown below.</p></li>
+<li>Load packages <code>tidyverse</code> and <code>tidytext</code>.</li>
 </ol>
+<pre class="r"><code>library(tidyverse)
+library(tidytext)</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li>Define a function called <code>main_text_fun</code> that takes as input the filename (incl. path) and returns the <code>main_text</code> object from previous assignments containing the lower-case book text.</li>
+</ol>
+<pre class="r"><code># function extracting main text
+main_text_fun = function(file){
+  
+    # load text
+  text = read_file(file)
+  
+  # define regex
+  regex = &#39;\\*{3}[:print:]*\\*{3}&#39;
+  
+  # cut text into sections
+  text_split = str_split(text, &#39;\\*{3}[:print:]*\\*{3}&#39;)
+  
+  # get sections
+  sections = text_split[[1]]
+  
+  # select main text
+  main_text = sections[2]
+  
+  # out
+  main_text
+  }</code></pre>
+<ol start="3" style="list-style-type: decimal">
+<li>Create a vector containing filenames (incl. path) of the books. If the books are all in one folder you can use <code>list.files()</code> with <code>full.names = TRUE</code>.</li>
+</ol>
+<pre class="r"><code># file
+files = list.files(&#39;books&#39;, full.names = T)</code></pre>
+<ol start="4" style="list-style-type: decimal">
+<li>Use the vector and the <code>main_text_fun()</code> within a <code>sapply()</code> to extract the texts for all books and store them in an object called <code>texts</code>.</li>
+</ol>
+<pre class="r"><code># process texts
+texts &lt;- sapply(files, main_text_fun)</code></pre>
+<ol start="5" style="list-style-type: decimal">
+<li>Create a <code>tibble</code> using <code>tibble</code> that has two columns: a column called <code>book</code> containing a self-defined character vector of book names and a column called <code>text</code> containing the <code>texts</code> vector of books. Call the tibble <code>text_tbl</code>. When you subsequently print it it should like the output shown below.</li>
+</ol>
+<pre class="r"><code># as tibble
+text_tbl = tibble(book = c(&#39;Alice in Wonderland&#39;,&#39;Dorian Gray&#39;, 
+                          &#39;Huckleberry Finn&#39;, &#39;Peter Pan&#39;, &#39;Treasure Island&#39;), 
+                  text = texts)
+
+# print
+text_tbl</code></pre>
 <pre><code>## # A tibble: 5 x 2
 ##   book             text                                                         
 ##   &lt;chr&gt;            &lt;chr&gt;                                                        
@@ -406,9 +448,20 @@ summary {
 <div id="c---tokenization" class="section level3">
 <h3>C - Tokenization</h3>
 <ol style="list-style-type: decimal">
-<li><p>Apply <code>unnest_tokens()</code> to <code>token_tbl</code> in order to tokenize the elements in the <code>text</code> column. See <code>?unnest_tokens</code>. Store the result back in <code>token_tbl</code>.</p></li>
-<li><p>Now use <code>tidyverse</code>’s <code>group_by()</code> and <code>mutate()</code> idiom to add columns <code>pos = 1:n()</code> and <code>rel_pos = (pos-1)/max(pos-1)</code> coding the absolute and relative position of a word within the respective book. To do this, you must group according to the variable indicating the book.</p></li>
+<li>Apply <code>unnest_tokens()</code> to <code>token_tbl</code> in order to tokenize the elements in the <code>text</code> column. See <code>?unnest_tokens</code>. Store the result back in <code>token_tbl</code>.</li>
 </ol>
+<pre class="r"><code># tokenize
+token_tbl = text_tbl %&gt;% 
+  unnest_tokens(word, text)</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li>Now use <code>tidyverse</code>’s <code>group_by()</code> and <code>mutate()</code> idiom to add columns <code>pos = 1:n()</code> and <code>rel_pos = (pos-1)/max(pos-1)</code> coding the absolute and relative position of a word within the respective book. To do this, you must group according to the variable indicating the book.</li>
+</ol>
+<pre class="r"><code># add pos variable
+token_tbl &lt;- token_tbl %&gt;% 
+  group_by(book) %&gt;%
+  mutate(pos = 1:n(),
+         rel_pos = (pos-1)/max(pos-1)) %&gt;%
+  ungroup()</code></pre>
 </div>
 <div id="d---add-sentiments" class="section level3">
 <h3>D - Add sentiments</h3>
@@ -416,6 +469,9 @@ summary {
 <li><p>Extract the <em>afinn</em> sentiment dictionary using the <code>get_sentiments()</code> function and store it in an object called <code>afinn</code>.</p></li>
 <li><p>Use <code>inner_join</code> to combine your <code>token_tbl</code> with <code>afinn</code>. You are reading for analysis.</p></li>
 </ol>
+<pre class="r"><code># add sentiments
+token_tbl &lt;- token_tbl %&gt;% 
+  inner_join(get_sentiments(&quot;afinn&quot;))</code></pre>
 </div>
 <div id="e---analyzing-sentiments" class="section level3">
 <h3>E - Analyzing sentiments</h3>
@@ -429,6 +485,10 @@ smooth = function(pos, value){
     sum(value * (weights / sum(weights)))
     })
   }</code></pre>
+<pre class="r"><code># smooth scores
+token_tbl &lt;- token_tbl %&gt;% 
+  group_by(book) %&gt;%
+  mutate(smooth_value = smooth(pos, value))</code></pre>
 <ol start="2" style="list-style-type: decimal">
 <li>Use the code below to create a plot of your sentiment arcs. If the lines are too squiggly, play around with the constant (currently <code>10</code>) in the <code>dnorm()</code> function within <code>smooth()</code>.</li>
 </ol>
